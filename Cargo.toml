@@ -1,0 +1,11 @@
+[package]
+name = "actix-beta-cors-example"
+version = "0.1.0"
+authors = ["DominicWrege <dominic.wrege001@stud.fh-dortmund.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = { version = "4.0.0-beta.1"}
+actix-cors = { git="https://github.com/DominicWrege/actix-extras", rev="9f9690348be8224139c3672bbf4d8feb34393545"}
